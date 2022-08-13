@@ -19,3 +19,50 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body{
+    font-size: 62.5%;
+    background: black;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+    font-size: 4.4em;
+}
+
+#floofer {
+    display: flex;
+    justify-content: center;
+}
+
+#floofer button{
+    font-size: 2rem;
+    background: white;
+    border: .4rem solid grey;
+    border-radius: .1rem;
+    margin: 1rem 0;
+}
+
+#frame {
+    display: flex;
+    background-image: url("../img/back.jpg");
+    width: 90vw;
+    height: 80vh;
+    /*   height: 90vh;
+    width: 95vw;*/
+    margin: auto;
+    border: 1rem groove brown;
+    /*    border: 10px solid black;
+
+*/
+}
+
+#frame img {
+    /*    height: 60em;
+width: 90em;*/
+    border-right: 1rem groove brown;
+    border-left: 1rem groove brown;
+}
